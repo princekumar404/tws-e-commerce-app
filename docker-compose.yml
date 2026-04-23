@@ -23,7 +23,7 @@ services:
       dockerfile: scripts/Dockerfile.migration
     container_name: easyshop-migration
     env_file:
-      - .env.local
+      - .env
     depends_on:
       mongodb:
         condition: service_healthy
