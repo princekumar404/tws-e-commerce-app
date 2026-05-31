@@ -15,7 +15,7 @@ import { Card, CardHeader, CardTitle } from "../ui/card";
 
 const paymentMethods = [
   {
-    title: "cash on delivery",
+    title: "cash on Delivery",
   },
 ];
 
